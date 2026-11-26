@@ -4,7 +4,7 @@
 [![Gazebo](https://img.shields.io/badge/Simulator-Gazebo-orange.svg)](http://gazebosim.org/)
 [![Robot](https://img.shields.io/badge/Robot-TurtleBot3-green.svg)](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/)
 
-## 📌 Project Overview
+##  Project Overview
 This repository contains a robotics simulation project demonstrating **Simultaneous Localization and Mapping (SLAM)** and **Autonomous Navigation** using a **TurtleBot3** robot inside a **Gazebo** environment. 
 
 The project is divided into two main phases:
@@ -13,7 +13,7 @@ The project is divided into two main phases:
 
 ---
 
-## 🛠️ Prerequisites & Dependencies
+##  Prerequisites & Dependencies
 Before running this project, ensure you have the following installed on your system (Ubuntu 20.04 with ROS Noetic or Ubuntu 22.04 with ROS 2 Humble):
 
 * **ROS** (Noetic / Humble)
@@ -36,7 +36,7 @@ sudo apt install ros-noetic-gmapping ros-noetic-navigation ros-noetic-map-server
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 1. **Create and initialize a catkin workspace** (skip if you already have one):
    ```bash
@@ -64,7 +64,7 @@ sudo apt install ros-noetic-gmapping ros-noetic-navigation ros-noetic-map-server
 
 ---
 
-## 🧭 Usage Instructions
+##  Usage Instructions
 
 ### Phase 1: Environment Mapping (SLAM)
 
@@ -122,7 +122,7 @@ sudo apt install ros-noetic-gmapping ros-noetic-navigation ros-noetic-map-server
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 ```text
 turtlebot3_simulation-/
 ├── launch/          # Custom Gazebo, SLAM, and Navigation launch files
@@ -136,8 +136,8 @@ turtlebot3_simulation-/
 
 ---
 
-## 🎥 Demo & Results
-*(Tip: Add screenshots or GIFs of your Gazebo environment, generated RViz map, and autonomous navigation path planning here!)*
+##  Demo & Results
+
 
 * **Gazebo Environment:** Shows the robot spawned in the simulated world.
 * **SLAM Mapping:** Real-time occupancy grid generation using LiDAR scan data (`/scan`).

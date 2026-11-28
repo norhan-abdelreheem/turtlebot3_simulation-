@@ -1,7 +1,7 @@
 set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-sudo apt update && sudo apt install -y git python3-colcon-common-extensions ros-jazzy-navigation2 ros-jazzy-nav2-bringup ros-jazzy-ros-gz ros-jazzy-slam-toolbox ros-jazzy-teleop-twist-keyboard
+sudo apt update && sudo apt install -y git python3-colcon-common-extensions ros-jazzy-navigation2 ros-jazzy-nav2-bringup ros-jazzy-ros-gz ros-jazzy-slam-toolbox ros-jazzy-teleop-twist-keyboard ros-jazzy-dynamixel-sdk
 
 cd "$SCRIPT_DIR"
 colcon build --symlink-install
